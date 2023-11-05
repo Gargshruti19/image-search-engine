@@ -7,6 +7,21 @@ const showMoreBtn = document.getElementById("show-more-btn");
 const searchBtn = document.querySelector("#srch");
 let keyword = "";
 let page = 91;
+let perPage = "";
+
+//Apply media query in javascript
+let x = window.matchMedia("(max-width: 400px)");
+
+function myFunction(x) {
+	if (x.matches) {
+		perPage = 6;
+	} else {
+		perPage = 12;
+	}
+}
+
+x.addEventListener("change", myFunction);
+myFunction(x);
 
 async function searchImages() {
 	keyword = searchBox.value;
