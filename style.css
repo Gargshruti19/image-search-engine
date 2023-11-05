@@ -12,7 +12,7 @@ h1 {
 	text-align: center;
 	margin: 100px auto 50px;
 	font-weight: 600;
-		font-size: 60px;
+        font-size: 60px;
 
 }
 #search-form {
@@ -80,7 +80,7 @@ form button {
 		text-align: center;
 		margin: 50px auto 25px;
 		font-weight: 600;
-			font-size: 50px;
+	        font-size: 50px;
 
 	}
 	#search-result {
@@ -149,7 +149,7 @@ form button {
 		text-align: center;
 		margin: 50px auto 25px;
 		font-weight: 400;
-			font-size: 35px;
+		font-size: 35px;
 
 	}
 	#search-result {
@@ -219,7 +219,7 @@ form button {
 		text-align: center;
 		margin: 25px auto 15px;
 		font-weight: 400;
-			font-size: 30px;
+		font-size: 30px;
 
 	}
 	#search-result {
