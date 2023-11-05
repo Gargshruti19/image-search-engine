@@ -7,7 +7,7 @@ const showMoreBtn = document.getElementById("show-more-btn");
 const searchBtn = document.querySelector("#srch");
 let keyword = "";
 let page = 91;
-let perPage = "12";
+let perPage;
 
 //Apply media query in javascript
 let x = window.matchMedia("(max-width: 400px)");
