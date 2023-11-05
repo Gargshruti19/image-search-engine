@@ -62,7 +62,7 @@ searchForm.addEventListener("submit", function (e) {
 showMoreBtn.addEventListener("click", function () {
 	page++;
 	searchImages();
-	console.log(":btn click");
+	
 });
 
 searchBtn.addEventListener("click", function () {
