@@ -215,11 +215,11 @@ form button {
 		font-weight: 400;
 	}
 	#search-result {
-		width: 70%;
-		margin: 30px auto 15px;
+		width: 80%;
+		margin: 40px auto 15px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 10px;
+		gap: 30px;
 	}
 	#search-result img {
 		width: 100%;
